@@ -31,6 +31,10 @@ public class RSSItem extends RSSBase {
     super(categoryCapacity);
     thumbnails = new java.util.ArrayList<MediaThumbnail>(thumbnailCapacity);
   }
+  
+  public RSSItem() {
+  	super(0);
+  }
 
   /* Internal method for RSSHandler */
   void addThumbnail(MediaThumbnail thumbnail) {
