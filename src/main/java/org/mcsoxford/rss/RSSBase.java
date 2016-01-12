@@ -63,11 +63,11 @@ abstract class RSSBase {
     return pubdate;
   }
 
-  void setTitle(String title) {
+  public void setTitle(String title) {
     this.title = title;
   }
 
-  void setLink(android.net.Uri link) {
+  public void setLink(android.net.Uri link) {
     this.link = link;
   }
 
@@ -83,7 +83,7 @@ abstract class RSSBase {
     this.categories.add(category);
   }
 
-  void setPubDate(java.util.Date pubdate) {
+  public void setPubDate(java.util.Date pubdate) {
     this.pubdate = pubdate;
   }
 
